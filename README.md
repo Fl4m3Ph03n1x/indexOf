@@ -1,9 +1,9 @@
 ## What is `indexOf` ?
 
 `indexOf` is my personal implementation of the `String.prototype.indexOf` function, but with a few micro-optimizations to increase performance.
-Do note that although this function will be faster than the original `indexOf` for small strings, for large enough string the original will eventually outperform it.
+Do note that although this function will be faster than the original `indexOf` for small strings, for large enough strings the original will eventually outperform it.
 
-## Why should I use it ?
+## Why and Who should I use it ?
 
 If you are using a browser from the past century that does not support the new ECMA6 [`includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) ( *cough cough IE users* ) and you know the majority of the strings you wish to compare will not have a size large enough to warrant the efficient usage of the native function, this is for you then.
 

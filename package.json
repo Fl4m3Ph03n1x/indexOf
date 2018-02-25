@@ -1,5 +1,5 @@
 {
-  "name": "correyvuela_indexOf",
+  "name": "indexOf",
   "version": "1.0.0",
   "description": "Re-implementation of the String.prototype.indexOf native function for specific use cases.",
   "main": "src/index.js",
