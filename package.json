@@ -1,0 +1,22 @@
+{
+  "name": "correyvuela_indexOf",
+  "version": "1.0.0",
+  "description": "Re-implementation of the String.prototype.indexOf native function for specific use cases.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nyc ./node_modules/mocha/bin/mocha --reporter spec test/unit/*_spec.js"
+  },
+  "keywords": [
+    "correyvuela",
+    "indexOf"
+  ],
+  "author": "Pedro Miguel Pereira Serrano Martins",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.18.1",
+    "mocha": "^5.0.1",
+    "nyc": "^11.4.1"
+  },
+  "dependencies": {}
+}
